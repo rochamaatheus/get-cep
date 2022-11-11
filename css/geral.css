@@ -103,6 +103,19 @@ footer > p > a {
   color: #222;
   font-weight: bold;
 }
+@media (max-width: 500px) {
+  .containerCep {
+    display: grid;
+  }
+  .containerCep input[type="button"] {
+    margin: .5rem 0 0 0;
+    padding: 8px;
+  }
+  input#cep {
+    margin-top: 4px;
+    padding: 12px;
+  }
+}
 @media (max-width: 260px) {
   .apresentacao {
     padding: .5rem;
