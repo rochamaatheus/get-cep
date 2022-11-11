@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get CEP</title>
+  <link rel="stylesheet preload" href="./css/style.css" as="style">
+  <link rel="stylesheet" href="./css/style.css">
+  <script>document.documentElement.className += ' js'</script>
+</head>
+
+<body>
+  <main>
+    <section class="apresentacaoContainer">
+      <div class="apresentacao">
+        <div>
+          <h1>Bem-Vindo ao Busca CEP</h1>
+          <p>Simples, rápido e fácil</p>
+        </div>
+        <div>
+          <form class="formulario">
+            <div class="containerCep">
+              <label for="cep">CEP:</label>
+              <input type="text" name="cep" id="cep" maxlength="10" required>
+              <input type="button" value="Buscar" class="btn">
+              <input type="button" value="Limpar" class="btnLimpar">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p><a href="https://www.github.com/rochamaatheus" target="_blank" rel="external">&copy;Matheus Silveira Rocha</a></p>
+  </footer>
+  <section data-modal="container" class="modalContainer">
+    <div class="tabelaContainer">
+      <button data-fechar="modal">X</button>
+      <table data-tabela class="tabela">
+        <caption>Informações do CEP</caption>
+      </table>
+    </div>
+  </section>
+  <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>

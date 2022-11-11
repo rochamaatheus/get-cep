@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --sombra-leve: rgba(0, 0, 0, 0.4);
+  --sombra-muito-leve: rgba(0, 0, 0, 0.2);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 94.7vh;
+  margin: 1rem;
+  background-color: #464975;
+}
+.apresentacaoContainer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.apresentacao {
+  background-color: #9AA0F5;
+  border-radius: 5px;
+  padding: 1.5rem;
+  height: fit-content;
+  box-shadow: 2px 2px 2px var(--sombra-leve);
+}
+h1 {
+  margin: 0 1rem 0.5rem 1rem;
+}
+p {
+  margin: 0 1rem 1rem 1rem;
+  font-weight: bold;
+  color: #111;
+}
+.containerCep {
+  margin: 1rem;
+}
+.containerCep > label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #222;
+}
+input#cep {
+  font-size: 1rem;
+  padding: 0.2rem;
+  border: none;
+  border-radius: 5px;
+}
+input[type='button'] {
+  margin-left: 0.5rem;
+  padding: 4px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid var(--sombra-leve);
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+input[type='button']:hover {
+  color: #222;
+  border-color: rgba(0, 0, 0, 0.6);
+}
+.tabelaContainer {
+  margin: 1rem;
+}
+.tabela {
+  border: 1px solid var(--sombra-leve);
+  border-collapse: collapse;
+}
+caption {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+td,
+th {
+  border: 1px solid var(--sombra-leve);
+  font-family: monospace;
+  padding: 0.5rem;
+}
+th {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+td {
+  font-size: 1rem;
+}
+tr:nth-child(odd) {
+  background-color: var(--sombra-muito-leve);
+}
+footer {
+  background-color: #e7e7e7;
+  margin: -1rem;
+  text-align: center;
+}
+footer > p {
+  padding: 6px;
+}
+footer > p > a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
