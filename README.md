@@ -17,7 +17,7 @@ Este é um site totalmente funcional onde você pode buscar qualquer tipo de CEP
 
 <h2>🖥️ Demonstração</h2>
 
-[![Get CEP](https://i.imgur.com/5ArAMzS.png "Clique para acessar o projeto")](https://rochamaatheus.github.io/get-cep/ "Clique para acessar o projeto")   
+[![Busca Cep](https://i.imgur.com/wKg8PMV.png "Clique para acessar o projeto")](https://rochamaatheus.github.io/get-cep/ "Clique para acessar o projeto")   
 
 Você pode acessar o projeto clicando [aqui](https://rochamaatheus.github.io/get-cep/).
 
